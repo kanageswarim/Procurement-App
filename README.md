@@ -82,3 +82,17 @@ R2 --> Z
 
 The exemption path is chosen automatically from pre-configured
 plant and commodity combinations.
+
+
+## Code Snippets
+Sanitised Power Apps logic, with links, IDs and names removed:
+
+- [Submit button](code-snippets/submit-button.md): validation, approver
+  lookup, request creation and the first approval mail
+- [Approve button (L0/L1)](code-snippets/approve-button-l0-l1.md):
+  rejection, final approval for Contractual requests, and routing
+  Non-Contractual requests to the next level
+
+The L2 and L3 approval buttons follow the same pattern as the L0/L1
+button: they update that level's status, comments and date, then either
+notify the next approver or send the final approval mail.
