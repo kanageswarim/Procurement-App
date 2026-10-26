@@ -96,3 +96,7 @@ Sanitised Power Apps logic, with links, IDs and names removed:
 The L2 and L3 approval buttons follow the same pattern as the L0/L1
 button: they update that level's status, comments and date, then either
 notify the next approver or send the final approval mail.
+
+For More Details:
+- [Power Automate flows](power-automate-flows.md)
+- [SharePoint structure](sharepoint-structure.md)
